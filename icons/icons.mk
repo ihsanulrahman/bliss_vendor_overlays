@@ -108,3 +108,7 @@ PRODUCT_PACKAGES += \
     IconPackOOSThemePickerOverlay \
     IconPackAcherusAndroidOverlay \
     IconPackAcherusSystemUIOverlay \
+	IconShapeCloudyOverlay \
+	IconShapeFlowerOverlay \
+	IconShapeRoundedHexagonOverlay \
+	IconShapeStretchedOverlay \
