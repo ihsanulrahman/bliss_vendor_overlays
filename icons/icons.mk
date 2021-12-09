@@ -112,3 +112,8 @@ PRODUCT_PACKAGES += \
 	IconShapeFlowerOverlay \
 	IconShapeRoundedHexagonOverlay \
 	IconShapeStretchedOverlay \
+    IconPackPUIAndroidOverlay \
+    IconPackPUILauncherOverlay \
+    IconPackPUISettingsOverlay \
+    IconPackPUISystemUIOverlay \
+    IconPackPUIThemePickerOverlay \
