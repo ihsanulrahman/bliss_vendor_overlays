@@ -44,7 +44,8 @@ endif
 #include vendor/overlays/accents/accents.mk
 
 # System themes
-#include vendor/overlays/themes/backgrounds/system_themes.mk
+PRODUCT_PACKAGES += \
+    AndroidBlackThemeOverlay \
 
 # Primary Colors
 #include vendor/overlays/primary/primary_colors.mk
