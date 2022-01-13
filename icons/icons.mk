@@ -103,3 +103,6 @@ PRODUCT_PACKAGES += \
     IconShapeVesselOverlay \
     IconPackOOSAndroidOverlay \
     IconPackOOSSystemUIOverlay \
+    IconPackOOSLauncherOverlay \
+    IconPackOOSSettingsOverlay \
+    IconPackOOSThemePickerOverlay \
