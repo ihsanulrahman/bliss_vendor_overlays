@@ -106,3 +106,5 @@ PRODUCT_PACKAGES += \
     IconPackOOSLauncherOverlay \
     IconPackOOSSettingsOverlay \
     IconPackOOSThemePickerOverlay \
+    IconPackAcherusAndroidOverlay \
+    IconPackAcherusSystemUIOverlay \
