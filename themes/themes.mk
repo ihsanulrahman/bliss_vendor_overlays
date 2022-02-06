@@ -2,6 +2,7 @@
 PRODUCT_PACKAGES += \
     XtendedClearSystemOverlay \
     XtendedClearSystemUIOverlay \
+    AndroidBlackThemeOverlay \
     PitchBlackSystemOverlay \
     PitchBlackSystemUIOverlay \
     SolarizedDarkSystemOverlay \
