@@ -42,7 +42,8 @@ PRODUCT_PACKAGES += \
     MiniSignalOverlay \
     OdinSignalOverlay \
     PillsSignalOverlay \
-    RomanSignalOverlay
+    RomanSignalOverlay \
+    DoraSignalOverlay
 
 # Wi-Fi Icons
 PRODUCT_PACKAGES += \
@@ -54,4 +55,5 @@ PRODUCT_PACKAGES += \
     WeedWiFiOverlay \
     RoundWiFiOverlay \
     InsideWiFiOverlay \
-    BarsWiFiOverlay
+    BarsWiFiOverlay \
+    DoraWiFiOverlay
