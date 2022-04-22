@@ -66,7 +66,7 @@ include vendor/overlays/prebuilt/fonts.mk
 include vendor/overlays/icons/icons.mk
 
 # Navbar styles
-include vendor/overlays/navbar/navbar.mk
+#include vendor/overlays/navbar/navbar.mk
 
 # Gvm styles
 #include vendor/overlays/Gvm/gvm.mk
