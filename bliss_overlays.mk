@@ -44,7 +44,7 @@ endif
 #include vendor/overlays/accents/accents.mk
 
 # System themes
-include vendor/overlays/themes/themes.mk
+#include vendor/overlays/themes/backgrounds/system_themes.mk
 
 # Primary Colors
 #include vendor/overlays/primary/primary_colors.mk
