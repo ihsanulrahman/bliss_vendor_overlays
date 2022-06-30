@@ -18,8 +18,7 @@
 PRODUCT_PACKAGES += \
     GesturalNavigationOverlayLong \
     GesturalNavigationOverlayMedium \
-    GesturalNavigationOverlayHidden \
-    NavigationBarModeGesturalOverlayFS
+    GesturalNavigationOverlayHidden
 
 # Pill radius
 PRODUCT_PACKAGES += \
