@@ -21,12 +21,12 @@ DEVICE_PACKAGE_OVERLAYS += vendor/overlays/overlay/common
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/overlays/overlay/common
 
 # Gapps overlays
-ifeq ($(BLISS_BUILD_VARIANT), gapps)
-DEVICE_PACKAGE_OVERLAYS += \
-    vendor/overlays/overlay/gapps
+#ifeq ($(BLISS_BUILD_VARIANT), gapps)
+#DEVICE_PACKAGE_OVERLAYS += \
+#    vendor/overlays/overlay/gapps
 
-PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/overlays/overlay/gapps
-endif
+#PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/overlays/overlay/gapps
+#endif
 
 #ifeq ($(BLISS_BUILD_VARIANT), gapps)
 #ifneq ($(filter blueline bonito coral crosshatch sunfish taimen,$(BLISS_BUILD)),)
@@ -79,11 +79,11 @@ include vendor/overlays/navbar/navbar.mk
 #include vendor/overlays/NotchCity/NotchCity.mk
 
 # Overlays
-PRODUCT_PACKAGES += \
-    CustomConfigOverlay \
-    CustomLauncherOverlay \
-    CustomSettingsOverlay
+#PRODUCT_PACKAGES += \
+#    CustomConfigOverlay \
+#    CustomLauncherOverlay \
+#    CustomSettingsOverlay
 
 # Custom Overlays
-PRODUCT_PACKAGES += \
-    CustomPixelLauncherOverlay
+#PRODUCT_PACKAGES += \
+#    CustomPixelLauncherOverlay
