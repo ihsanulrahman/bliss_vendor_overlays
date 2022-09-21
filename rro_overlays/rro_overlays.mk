@@ -1,5 +1,6 @@
 # Overlays
-#PRODUCT_PACKAGES += \
+PRODUCT_PACKAGES += \
+     BlissConfigOverlay
 #    CustomConfigOverlay \
 #    CustomLauncherOverlay \
 #    CustomSettingsOverlay
