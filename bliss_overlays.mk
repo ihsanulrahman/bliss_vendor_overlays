@@ -78,12 +78,5 @@ include vendor/overlays/navbar/navbar.mk
 # Cutout control overlays
 #include vendor/overlays/NotchCity/NotchCity.mk
 
-# Overlays
-#PRODUCT_PACKAGES += \
-#    CustomConfigOverlay \
-#    CustomLauncherOverlay \
-#    CustomSettingsOverlay
-
-# Custom Overlays
-#PRODUCT_PACKAGES += \
-#    CustomPixelLauncherOverlay
+# RRO Overlays
+include vendor/overlays/rro_overlays/rro_overlays.mk
