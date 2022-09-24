@@ -51,10 +51,6 @@ PRODUCT_PACKAGES += \
 #include vendor/overlays/primary/primary_colors.mk
 
 # Fonts
-# Copy fonts to system
-PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/overlays/fonts,$(TARGET_COPY_OUT_SYSTEM)/fonts)
-
-# Includes fonts
 include vendor/overlays/fonts/fonts.mk
 
 # Switch Themes

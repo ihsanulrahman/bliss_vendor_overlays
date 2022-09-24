@@ -13,6 +13,10 @@
 # limitations under the License.
 
 # Fonts
+LOCAL_PATH := vendor/overlays/fonts
+PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,$(LOCAL_PATH)/ttf,$(TARGET_COPY_OUT_PRODUCT)/fonts)
+
+# Fonts Overlays
 PRODUCT_PACKAGES += \
     FontAclonicaSourceOverlay \
     FontAmaranteSourceOverlay \
@@ -48,3 +52,6 @@ PRODUCT_PACKAGES += \
     FontStoropiaSourceOverlay \
     FontSurferSourceOverlay \
     FontUbuntuSourceOverlay
+
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/fonts_customization.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/fonts_customization.xml
