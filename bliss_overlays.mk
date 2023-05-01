@@ -78,3 +78,8 @@ include vendor/overlays/rro_overlays/rro_overlays.mk
 ifeq ($(EXTRA_UDFPS_ANIMATIONS),true)
 include vendor/overlays/UDFPS/udfps.mk
 endif
+
+# Brightness slider styles
+PRODUCT_PACKAGES += \
+    BrightnessSliderFilledOverlay \
+    BrightnessSliderThinOverlay
