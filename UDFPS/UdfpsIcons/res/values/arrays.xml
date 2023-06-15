@@ -108,6 +108,9 @@
         <item>udfps_icon_misc5</item>
         <item>udfps_icon_misc6</item>
         <item>udfps_icon_misc7</item>
+        <item>udfps_icon_cos</item>
+        <item>udfps_icon_rui</item>
+        <item>udfps_icon_rui2</item>
         <item>udfps_icon_genshin_fire</item>
         <item>udfps_icon_transparent</item>
    </string-array>
