@@ -16,6 +16,10 @@
 -->
 <resources>
     <string-array name="configs_base">
+
+        <!-- Enable seperated notification/ring volume sliders in UI -->
+        <item>systemui/volume_separate_notification=true</item>
+
         <!--
             System
         -->
