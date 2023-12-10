@@ -2,13 +2,13 @@
 <resources>
     <!-- Build properties from a GMS certified device -->
     <string-array name="config_certifiedBuildProperties" translatable="false">
-        <item>asus</item> <!-- Build.BRAND -->
-        <item>asus</item> <!-- Build.MANUFACTURER -->
+        <item>Xiaomi</item> <!-- Build.BRAND -->
+        <item>Xiaomi</item> <!-- Build.MANUFACTURER -->
         <item></item> <!-- Build.ID -->
-        <item>ASUS_Z012D</item> <!-- Build.DEVICE -->
-        <item>WW_Phone</item> <!-- Build.PRODUCT -->
-        <item>ASUS_Z012D</item> <!-- Build.MODEL -->
-        <item>asus/WW_Phone/ASUS_Z012D:7.0/NRD90M/14.2015.1701.8-20170222:user/release-keys</item> <!-- Build.FINGERPRINT -->
+        <item>ferrari</item> <!-- Build.DEVICE -->
+        <item>ferrari</item> <!-- Build.PRODUCT -->
+        <item>Mi 4i</item> <!-- Build.MODEL -->
+        <item>Xiaomi/ferrari/ferrari:5.0.2/LRX22G/V6.4.10.0.LXIMICB:user/release-keys</item> <!-- Build.FINGERPRINT -->
         <item></item> <!-- Build.TYPE -->
         <item></item> <!-- Build.TAGS -->
     </string-array>
