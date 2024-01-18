@@ -9,7 +9,3 @@ PRODUCT_PACKAGES += \
 # Custom Overlays
 #PRODUCT_PACKAGES += \
 #    CustomPixelLauncherOverlay
-
-# PixelPropUtils Certification
-PRODUCT_PACKAGES += \
-    CertificationOverlay
