@@ -1,3 +1,4 @@
 # Udfps
 PRODUCT_PACKAGES += \
-    UdfpsAnimations 
+    UdfpsAnimations \
+    UdfpsIcons
