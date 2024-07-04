@@ -12,6 +12,8 @@
      limitations under the License.
 -->
 <resources>
+    <!-- Whether to enable the app battery usage list page feature. -->
+    <bool name="config_app_battery_usage_list_enabled">true</bool>
 
     <!-- Package name and fully-qualified class name for the wallpaper picker activity. -->
     <string name="config_wallpaper_picker_package" translatable="false">com.android.wallpaper</string>
